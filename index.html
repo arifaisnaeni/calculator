@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculators Application</title>
+	<link rel="stylesheet" text="text/css" href="kalk.css">
+	<script src="kalk.js"></script>
+	<link rel="icon" href="kalkulator.ico" type="image/x-icon"/>
+	<link rel="shortcut icon" href="kalkuator.ico" type="image/x-icon"/>
+</head>
+<body>
+	<form name="kalkulator">
+    <div class="wrapper">
+		<nav class="topnav" id="myTopnav">
+			<h3>Calculators Application</h3>
+		</nav>
+		<div class="input">
+			<input type="text" class="inputan" value="0" size=41 name="layar"> 
+		</div>
+		<hr>
+		<div class="kalk1" style="margin-top: -8px;">
+		<div class="kalk1" style="margin-top: 31px;">
+			<input type="button" class="button5" id="persen" value="%" onclick="Operator('%'); return false;"/>
+			<input type="button" class="button5" id="akar" value="&radic;" onclick="Operator('akar'); return false;"/>
+			<button class="pang" onclick="Operator('x^2');return false;">x<sup>2</sup></button>
+			<input type="button" class="button5" id="per" value="1/x" onclick="Operator('1/x'); return false;"/>
+		</div>
+		<div class="kalk2" style="margin-top: 2px;">	
+			<input type="button" class="button" value="CE" onclick="CE();"/>
+			<input type="button" class="c" value="C" onclick="C();"/>
+			<button class="hapus" onclick="Hapus();return false;"><img src="delete.png"></button>
+			<input type="button" class="opr" id="bagi" value="/" onclick="Operator('/');"/>
+		</div>
+		<div class="kalk3" style="margin-top: 2px;" >
+			<input type="button" class="button1" value="7" onclick="tombol(7);"/>
+			<input type="button" class="button1" id="delapan" value="8" onclick="tombol(8);"/>
+			<input type="button" class="button1" id="sembilan" value="9" onclick="tombol(9);"/>
+			<input type="button" class="button1" id="kali" value="*" onclick="Operator('*');"/>
+		</div>
+		<div class="kalk4" style="margin-top: 2px;">
+			<input type="button" class="button2" value="4" onclick="tombol(4);"/>
+			<input type="button" class="button2" id="lima" value="5" onclick="tombol(5);"/>
+			<input type="button" class="button2" id="enam" value="6" onclick="tombol(6);"/>
+			<input type="button" class="button2" id="kurang" value="-" onclick="Operator('-');"/>
+		</div>
+		<div class="kalk5" style="margin-top: 2px;">
+			<input type="button" class="button3" value="1" onclick="tombol(1);"/>
+			<input type="button" class="button3" id="dua" value="2" onclick="tombol(2);"/>
+			<input type="button" class="button3" id="tiga" value="3" onclick="tombol(3);"/>
+			<input type="button" class="button3" id="tambah" value="+" onclick="Operator('+');"/>
+		</div>
+		<div class="kalk6" style="margin-top: 2px;">
+			<input type="button" class="button4" value="." onclick="tombol('.');"/>
+			<input type="button" class="button4" id="nol" value="0" onclick="tombol(0);"/>
+			<input type="button" class="button4" id="plus" value="+/-" onclick="Operator('+/-');"/>
+			<input type="button" class="button4" id="hasil" value="=" class="button" onclick="Hitung();"/>
+		</div>
+		<hr style="margin-top: 0px;">
+		</div>
+	</div>
+	</form>
+	</div>
+</body>
+</html>
