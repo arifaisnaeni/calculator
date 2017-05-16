@@ -8,23 +8,23 @@
 	<link rel="shortcut icon" href="kalkuator.ico" type="image/x-icon"/>
 </head>
 <body>
+	<div class="wrapper">
 	<form name="kalkulator">
-    <div class="wrapper">
 		<nav class="topnav" id="myTopnav">
 			<h3>Calculators Application</h3>
 		</nav>
 		<div class="input">
-			<input type="text" class="inputan" value="0" size=41 name="layar"> 
+			<input type="text" class="inputan" value="0" size=41 name="layar">
 		</div>
 		<hr>
 		<div class="kalk1" style="margin-top: -8px;">
-		<div class="kalk1" style="margin-top: 31px;">
+		<div class="kalk1" style="margin-top: -4px;">
 			<input type="button" class="button5" id="persen" value="%" onclick="Operator('%'); return false;"/>
 			<input type="button" class="button5" id="akar" value="&radic;" onclick="Operator('akar'); return false;"/>
 			<button class="pang" onclick="Operator('x^2');return false;">x<sup>2</sup></button>
 			<input type="button" class="button5" id="per" value="1/x" onclick="Operator('1/x'); return false;"/>
 		</div>
-		<div class="kalk2" style="margin-top: 2px;">	
+		<div class="kalk2" style="margin-top: 2px;">
 			<input type="button" class="button" value="CE" onclick="CE();"/>
 			<input type="button" class="c" value="C" onclick="C();"/>
 			<button class="hapus" onclick="Hapus();return false;"><img src="delete.png"></button>
@@ -53,11 +53,7 @@
 			<input type="button" class="button4" id="nol" value="0" onclick="tombol(0);"/>
 			<input type="button" class="button4" id="plus" value="+/-" onclick="Operator('+/-');"/>
 			<input type="button" class="button4" id="hasil" value="=" class="button" onclick="Hitung();"/>
-		</div>
-		<hr style="margin-top: 0px;">
-		</div>
 	</div>
 	</form>
-	</div>
 </body>
 </html>

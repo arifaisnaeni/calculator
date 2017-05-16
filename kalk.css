@@ -1,12 +1,13 @@
 			body{
 				margin-left: 520px;
 				margin-top: 85px;
+				background-color: #0ca3d2;
 			}
 			.inputan{
 				background-color: ;
 				height: 50px;
 				color: white;
-				box-shadow: 0px 25px rgba(0, 0, 0, 0.2);
+				box-shadow: 0px 25px rgba(0, 0, 0, 0.7);
 				font-family: agency fb;
 				text-align: right;
 				font-size: 35px;
@@ -15,8 +16,8 @@
 				border: 1px solid #777474;
 				border-bottom: 5px solid #474444;
 				border-top: 5px solid #474444;
-				border-right: 5px solid #474444;
-				border-left: 5px solid #474444;
+				border-right: 5px solid aqua;
+				border-left: 5px solid aqua;
 			}
 			h3{
 				margin-left: 38px;
@@ -50,9 +51,11 @@
 			#myTopnav{
 				background-color: #20ad98;
 				height: 67px;
-				width: 274px;
-				border-bottom: 1px solid red;
-				border-top: 1px solid red;
+				width: 268px;
+				border-bottom: 3px solid aqua;
+				border-top: 3px solid aqua;
+				border-right: 3px solid aqua;
+				border-left: 3px solid aqua;
 			}
 			.button5{
 				font-size: 25px;
@@ -150,7 +153,7 @@
 			#kali{
 				padding-left: 27px;
 			}
-			.button1:hover, .button2:hover, .button3:hover, .button4:hover, .button:hover, .hapus:hover, .c:hover, .button5:hover, .pang:hover{
+			.button1:hover, .button2:hover, .button3:hover, .button4:hover, .button:hover, .hapus:hover, .c:hover, .button5:hover, .pang:hover, .opr:hover{
 				background-color: #cfcfcf;
 				transition: 0.1s;
 			}
@@ -202,9 +205,9 @@
 				margin-right: 2px;
 			}
 			hr{
-				margin-top: 0px;
-				margin-right: 564px;
-				color: blue;
+				margin-top: 25px;
+				margin-right: 431px;
+				color: aqua;
 			}
 			.opr{
 				font-size: 25px;
@@ -213,4 +216,16 @@
 				padding-left: 28px;
 				background-color: #e6e6e6;
 				border: white;
+			}
+			.wrapper{
+				background: #0785bf;
+		    padding-left: 373px;
+		    margin-left: -380px;
+		    padding-top: 30px;
+		    margin-top: 65px;
+		    margin-bottom: 0px;
+		    width: 705px;
+		    border-radius: 5px;
+				height: 510px;
+				box-shadow: 0 0 200px rgba(255, 255, 255, 1);
 			}
