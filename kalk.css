@@ -1,7 +1,9 @@
 			body{
 				margin-left: 520px;
 				margin-top: 85px;
-				background-color: #0ca3d2;
+				background-image: url(mat.jpg);
+				background-size: 1600px;
+    		background-position-x: -200px;
 			}
 			.inputan{
 				background-color: ;
@@ -56,6 +58,8 @@
 				border-top: 3px solid aqua;
 				border-right: 3px solid aqua;
 				border-left: 3px solid aqua;
+				background-image: url(10.jpg);
+				background-size: 150px;
 			}
 			.button5{
 				font-size: 25px;
@@ -206,7 +210,7 @@
 			}
 			hr{
 				margin-top: 25px;
-				margin-right: 422px;
+				margin-right: 10px;
 				color: aqua;
 			}
 			.opr{
@@ -219,15 +223,16 @@
 			}
 			.wrapper{
 				background: #0785bf;
-		    padding-left: 373px;
-		    margin-left: -380px;
-		    padding-top: 30px;
+		    padding-left: 10px;
+		    margin-left: -5px;
 		    margin-top: 65px;
 		    margin-bottom: 0px;
 		    width: 705px;
 		    border-radius: 5px;
-				height: 510px;
-				box-shadow: 0 0 200px rgba(255, 255, 255, 1);
+				height: 508px;
+				padding-top: 11px;
+				width: 293px;
+				box-shadow: 0 0 200px rgb(54, 111, 220);
 			}
 			#kalk1{
 				margin-top: -8px;
