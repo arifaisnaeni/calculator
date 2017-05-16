@@ -43,6 +43,7 @@
 			{
         newdigit=true;
         document.kalkulator.layar.value='0';
+				temp = 0;
     	}
 			function Hapus()
 			{
@@ -89,4 +90,5 @@
 					return;
 				}
           document.kalkulator.layar.value = temp;
+					temp = 0;
         }
