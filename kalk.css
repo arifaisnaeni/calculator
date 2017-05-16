@@ -3,14 +3,12 @@
 				margin-top: 85px;
 				background-image: url(mat.jpg);
 				background-size: 1600px;
-    		background-position-x: -200px;
 			}
 			.inputan{
-				background-color: ;
 				height: 50px;
 				color: white;
 				box-shadow: 0px 25px rgba(0, 0, 0, 0.7);
-				font-family: agency fb;
+				font-family: "agency fb";
 				text-align: right;
 				font-size: 35px;
 				width: 271px;
@@ -23,7 +21,7 @@
 			}
 			h3{
 				margin-left: 38px;
-				font-family: agency fb;
+				font-family: "agency fb";
 				font-size: 25px;
 				color: white;
 				margin-top: 18px;
@@ -40,7 +38,7 @@
 			}
 			.button{
 				font-size: 25px;
-				font-family: agency fb;
+				font-family: "agency fb";
 				padding: 11px 22px;
 				background-color: #e6e6e6;
 				border: white;
@@ -63,7 +61,7 @@
 			}
 			.button5{
 				font-size: 25px;
-				font-family: agency fb;
+				font-family: "agency fb";
 				padding: 11px 25px;
 				border: white;
 				background-color: #f2f2f2;
@@ -91,7 +89,7 @@
 			}
 			.button1{
 				font-size: 25px;
-				font-family: agency fb;
+				font-family: "agency fb";
 				padding: 11px 27px;
 				padding-left: 29px;
 				background-color: #e6e6e6;
@@ -113,7 +111,7 @@
 			}
 			.button2{
 				font-size: 25px;
-				font-family: agency fb;
+				font-family: "agency fb";
 				padding: 11px 27px;
 				background-color: #e6e6e6;
 				border: white;
@@ -136,7 +134,7 @@
 			}
 			.button3{
 				font-size: 25px;
-				font-family: agency fb;
+				font-family: "agency fb";
 				padding: 11px 26px;
 				padding-right: 29px;
 				background-color: #e6e6e6;
@@ -163,7 +161,7 @@
 			}
 			.button4{
 				font-size: 25px;
-				font-family: agency fb;
+				font-family: "agency fb";
 				padding: 11px 28px;
 				background-color: #e6e6e6;
 				border: white;
@@ -189,7 +187,7 @@
 			}
 			.c{
 				font-size: 25px;
-				font-family: agency fb;
+				font-family: "agency fb";
 				padding: 10px 20px;
 				padding-left: 26px;
 				background-color: #e6e6e6;
@@ -199,7 +197,7 @@
 			}
 			.pang{
 				font-size: 24px;
-				font-family: agency fb;
+				font-family: "agency fb";
 				padding: 10px 22px;
 				padding-left: 27px;
 				padding-bottom: 12px;
@@ -215,7 +213,7 @@
 			}
 			.opr{
 				font-size: 25px;
-				font-family: agency fb;
+				font-family: "agency fb";
 				padding: 10px 25px;
 				padding-left: 28px;
 				background-color: #e6e6e6;

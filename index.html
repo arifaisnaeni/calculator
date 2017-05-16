@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Calculators Application</title>
-	<link rel="stylesheet" text="text/css" href="kalk.css">
+	<link rel="stylesheet" type="text/css" href="kalk.css">
 	<script src="kalk.js"></script>
 	<link rel="icon" href="kalkulator.ico" type="image/x-icon"/>
 	<link rel="shortcut icon" href="kalkuator.ico" type="image/x-icon"/>
@@ -27,7 +27,7 @@
 		<div class="kalk2" style="margin-top: 2px;">
 			<input type="button" class="button" value="CE" onclick="CE();"/>
 			<input type="button" class="c" value="C" onclick="C();"/>
-			<button class="hapus" onclick="Hapus();return false;"><img src="delete.png"></button>
+			<button class="hapus" onclick="Hapus();return false;"><img alt="Gambar" src="delete.png"></button>
 			<input type="button" class="opr" id="bagi" value="/" onclick="Operator('/');"/>
 		</div>
 		<div class="kalk3" style="margin-top: 2px;" >
@@ -52,8 +52,10 @@
 			<input type="button" class="button4" value="." onclick="tombol('.');"/>
 			<input type="button" class="button4" id="nol" value="0" onclick="tombol(0);"/>
 			<input type="button" class="button4" id="plus" value="+/-" onclick="Operator('+/-');"/>
-			<input type="button" class="button4" id="hasil" value="=" class="button" onclick="Hitung();"/>
+			<input type="button" class="button4" id="hasil" value="=" onclick="Hitung();"/>
+	</div>
 	</div>
 	</form>
+	</div>
 </body>
 </html>
