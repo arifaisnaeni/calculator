@@ -4,33 +4,33 @@
             	var temp;
             	function tombol(nilai){
                 if(newdigit){
-                    newdigit = false;
+                    	newdigit = false;
                 }else{
-					if(nilai == '.' && document.kalkulator.layar.value.indexOf(".") == -1)
-					{
-						nilai = document.kalkulator.layar.value + nilai;
-					}
-					else if (nilai == '.' && document.kalkulator.layar.value.indexOf(".") != -1)
-						return;
-					else
-					{
-						nilai = document.kalkulator.layar.value + nilai;
-					}
+			if(nilai == '.' && document.kalkulator.layar.value.indexOf(".") == -1)
+			{
+				nilai = document.kalkulator.layar.value + nilai;
+			}
+				else if (nilai == '.' && document.kalkulator.layar.value.indexOf(".") != -1)
+				return;
+			else
+			{
+				nilai = document.kalkulator.layar.value + nilai;
+			}
                 }
 
                 document.kalkulator.layar.value=nilai;
             	}
            	function Operator(opt){
-				op = opt;
-				if(opt == 'x^2' || opt == '%' || opt == 'akar' || opt == '1/x' || opt == '+/-') Hitung();
-				else {
-					if(temp){
-						Hitung();
-					}
-					temp = document.kalkulator.layar.value;
+			op = opt;
+			if(opt == 'x^2' || opt == '%' || opt == 'akar' || opt == '1/x' || opt == '+/-') Hitung();
+			else {
+				if(temp){
+					Hitung();
+				}
+				temp = document.kalkulator.layar.value;
 
-					op = opt;
-					newdigit=true;
+				op = opt;
+				newdigit=true;
 				}
            	 }
 		function CE()
