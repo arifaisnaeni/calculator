@@ -1,8 +1,8 @@
 
-			var newdigit = true;
-            var op;
-            var temp;
-            function tombol(nilai){
+		var newdigit = true;
+            	var op;
+            	var temp;
+            	function tombol(nilai){
                 if(newdigit){
                     newdigit = false;
                 }else{
@@ -19,8 +19,8 @@
                 }
 
                 document.kalkulator.layar.value=nilai;
-            }
-            function Operator(opt){
+            	}
+           	function Operator(opt){
 				op = opt;
 				if(opt == 'x^2' || opt == '%' || opt == 'akar' || opt == '1/x' || opt == '+/-') Hitung();
 				else {
@@ -32,44 +32,44 @@
 					op = opt;
 					newdigit=true;
 				}
-            }
-			function CE()
+           	 }
+		function CE()
 			{
-        newdigit=true;
-       document.kalkulator.layar.value='0';
-        temp=0;
-      }
-      function C()
+        		newdigit=true;
+       			document.kalkulator.layar.value='0';
+        		temp=0;
+     			}
+     		function C()
 			{
-        newdigit=true;
-        document.kalkulator.layar.value='0';
-				temp = 0;
-    	}
-			function Hapus()
+        		newdigit=true;
+        		document.kalkulator.layar.value='0';
+			temp = 0;
+    			}
+		function Hapus()
 			{
-				var str = document.kalkulator.layar.value;
-				var res = str.substring(0, str.length - 1);
-				document.kalkulator.layar.value=res;
+			var str = document.kalkulator.layar.value;
+			var res = str.substring(0, str.length - 1);
+			document.kalkulator.layar.value=res;
 			}
-      function Hitung()
+      		function Hitung()
 			{
-        var angka = document.kalkulator.layar.value;
-				var hasil;
-        if(op == '*'){
-          temp = temp * angka;
-        }
+        		var angka = document.kalkulator.layar.value;
+			var hasil;
+        			if(op == '*'){
+          				temp = temp * angka;
+        			}
 				else if(op == '/')
 				{
-          temp = temp / angka;
-        }
+          				temp = temp / angka;
+        			}
 				else if(op == '+')
 				{
-          temp = parseFloat(temp) + parseFloat(angka);
-        }
+        				  temp = parseFloat(temp) + parseFloat(angka);
+        			}
 				else if(op == '-')
 				{
-          temp = temp - angka;
-        }
+          				temp = temp - angka;
+        			}
 				else if(op == '%'){
 					temp = angka / 100;
 				}
@@ -89,6 +89,6 @@
 					temp = 0;
 					return;
 				}
-          document.kalkulator.layar.value = temp;
+          				document.kalkulator.layar.value = temp;
 					temp = 0;
-        }
+			        }
