@@ -1,10 +1,13 @@
-			body{
+			body
+			{
 				margin-left: 520px;
 				margin-top: 85px;
 				background-image: url(mat.jpg);
 				background-size: 1600px;
 			}
-			.inputan{
+
+			.inputan
+			{
 				height: 50px;
 				color: white;
 				box-shadow: 0px 25px rgba(0, 0, 0, 0.7);
@@ -19,24 +22,32 @@
 				border-right: 5px solid aqua;
 				border-left: 5px solid aqua;
 			}
-			h3{
+
+			h3
+			{
 				margin-left: 38px;
 				font-family: "agency fb";
 				font-size: 25px;
 				color: white;
 				margin-top: 18px;
 			}
-			.log{
+
+			.log
+			{
 				padding: 12px 15px;
 				background-color: #e6e6e6;
 				border: white;
 				margin-top: 25px;
 			}
-			.log:hover{
+
+			.log:hover
+			{
 				background-color: #cfcfcf;
 				transition: 1s;
 			}
-			.button{
+
+			.button
+			{
 				font-size: 25px;
 				font-family: "agency fb";
 				padding: 11px 22px;
@@ -48,7 +59,9 @@
 				padding-top: 10px;
 				padding-left: 23px;
 			}
-			#myTopnav{
+
+			#myTopnav
+			{
 				background-color: #20ad98;
 				height: 67px;
 				width: 277px;
@@ -59,7 +72,9 @@
 				background-image: url(10.jpg);
 				background-size: 150px;
 			}
-			.button5{
+
+			.button5
+			{
 				font-size: 25px;
 				font-family: "agency fb";
 				padding: 11px 25px;
@@ -67,27 +82,39 @@
 				background-color: #f2f2f2;
 				margin-right: 3px;
 			}
-			#persen{
+
+			#persen
+			{
 				padding-left: 23px;
 			}
-			#akar{
+
+			#akar
+			{
 				padding-left: 26px;
 			}
-			#per{
+
+			#per
+			{
 				padding-left: 20px;
 				padding-right: 20px;
 			}
-			img{
+
+			img
+			{
 				width: 30px;
 			}
-			.hapus{
+
+			.hapus
+			{
 				padding: 17px 15px 14px;
 				background-color: #e6e6e6;
 				border: white;
 				padding-right: 19px;
 				margin-right: 2px;
 			}
-			.button1{
+
+			.button1
+			{
 				font-size: 25px;
 				font-family: "agency fb";
 				padding: 11px 27px;
@@ -96,20 +123,28 @@
 				border: white;
 				margin-right: 3px;
 			}
-			#delapan{
+
+			#delapan
+			{
 				padding-left: 26px;
 				padding-right:  25px;
 				margin-right: 2px;
 			}
-			#sembilan{
+
+			#sembilan
+			{
 				padding-left: 27px;
 				margin-right: 2px;
 			}
-			#tambah{
+
+			#tambah
+			{
 				padding-left: 26px;
 				padding-right: 27px;
 			}
-			.button2{
+
+			.button2
+			{
 				font-size: 25px;
 				font-family: "agency fb";
 				padding: 11px 27px;
@@ -118,21 +153,29 @@
 				padding-left: 28px;
 				margin-right: 3px;
 			}
-			#lima{
+
+			#lima
+			{
 				padding-left: 26px;
 				padding-right: 26px;
 				margin-right: 2px;
 			}
-			#enam{
+
+			#enam
+			{
 				padding-left: 26px;
 				padding-right: 28px;
 				margin-right: 2px;
 			}
-			#kurang{
+
+			#kurang
+			{
 				padding-left: 27px;
 				padding-right: 29px;
 			}
-			.button3{
+
+			.button3
+			{
 				font-size: 25px;
 				font-family: "agency fb";
 				padding: 11px 26px;
@@ -142,24 +185,34 @@
 				padding-left: 31px;
 				margin-right: 3px;
 			}
-			#dua{
+
+			#dua
+			{
 				padding-left: 26px;
 				padding-right: 26px;
 				margin-right: 2px;
 			}
-			#tiga{
+
+			#tiga
+			{
 				margin-right: 2px;
 				padding-left: 27px;
 				padding-right: 27px;
 			}
-			#kali{
+
+			#kali
+			{
 				padding-left: 27px;
 			}
-			.button1:hover, .button2:hover, .button3:hover, .button4:hover, .button:hover, .hapus:hover, .c:hover, .button5:hover, .pang:hover, .opr:hover{
+
+			.button1:hover, .button2:hover, .button3:hover, .button4:hover, .button:hover, .hapus:hover, .c:hover, .button5:hover, .pang:hover, .opr:hover
+			{
 				background-color: #cfcfcf;
 				transition: 0.1s;
 			}
-			.button4{
+
+			.button4
+			{
 				font-size: 25px;
 				font-family: "agency fb";
 				padding: 11px 28px;
@@ -168,12 +221,16 @@
 				padding-left: 33px;
 				margin-right: 3px;
 			}
-			#nol{
+
+			#nol
+			{
 				padding-left: 26px;
 				padding-right: 25px;
 				margin-right: 2px;
 			}
-			#plus{
+
+			#plus
+			{
 				font-size: 20px;
 				padding-left: 20px;
 				padding-top: 16px;
@@ -181,11 +238,15 @@
 				margin-right: 2px;
 				padding-right: 21px;
 			}
-			#hasil{
+
+			#hasil
+			{
 				padding-left: 26px;
 				padding-right: 27px;
 			}
-			.c{
+
+			.c
+			{
 				font-size: 25px;
 				font-family: "agency fb";
 				padding: 10px 20px;
@@ -195,7 +256,9 @@
 				margin-right: 2px;
 				padding-right: 26px;
 			}
-			.pang{
+
+			.pang
+			{
 				font-size: 24px;
 				font-family: "agency fb";
 				padding: 10px 22px;
@@ -206,12 +269,16 @@
 				background-color: #f2f2f2;
 				margin-right: 2px;
 			}
-			hr{
+
+			hr
+			{
 				margin-top: 25px;
 				margin-right: 10px;
 				color: aqua;
 			}
-			.opr{
+
+			.opr
+			{
 				font-size: 25px;
 				font-family: "agency fb";
 				padding: 10px 25px;
@@ -219,7 +286,9 @@
 				background-color: #e6e6e6;
 				border: white;
 			}
-			.wrapper{
+
+			.wrapper
+			{
 				background: #0785bf;
 		    		padding-left: 10px;
 		    		margin-left: -10px;
@@ -232,7 +301,9 @@
 				width: 293px;
 				box-shadow: 0 0 200px rgb(54, 111, 220);
 			}
-			#kalk1{
+
+			#kalk1
+			{
 				margin-top: -8px;
 		    		background: #e6e6e6;
 		    		width: 278px;
