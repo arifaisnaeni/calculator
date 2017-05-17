@@ -221,12 +221,12 @@
 			}
 			.wrapper{
 				background: #0785bf;
-		    padding-left: 10px;
-		    margin-left: -5px;
-		    margin-top: 65px;
-		    margin-bottom: 0px;
-		    width: 705px;
-		    border-radius: 5px;
+		    		padding-left: 10px;
+		    		margin-left: -10px;
+		    		margin-top: 65px;
+		    		margin-bottom: 0px;
+		    		width: 705px;
+		    		border-radius: 5px;
 				height: 508px;
 				padding-top: 11px;
 				width: 293px;
@@ -234,9 +234,9 @@
 			}
 			#kalk1{
 				margin-top: -8px;
-		    background: #e6e6e6;
-		    width: 278px;
-		    border-right: 2px solid aqua;
-		    border-left: 3px solid aqua;
-		    border-bottom: 3px solid aqua;
+		    		background: #e6e6e6;
+		    		width: 278px;
+		    		border-right: 2px solid aqua;
+		    		border-left: 3px solid aqua;
+		    		border-bottom: 3px solid aqua;
 			}
