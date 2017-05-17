@@ -2,16 +2,21 @@
 		var newdigit = true;
             	var op;
             	var temp;
-            	function tombol(nilai){
-                if(newdigit){
-                    	newdigit = false;
-                }else{
-			if(nilai == '.' && document.kalkulator.layar.value.indexOf(".") == -1)
+            	function tombol(nilai)
+		{
+                	if(newdigit)
 			{
-				nilai = document.kalkulator.layar.value + nilai;
+                    		newdigit = false;
+                	}
+			else
+			{
+				if(nilai == '.' && document.kalkulator.layar.value.indexOf(".") == -1)
+				{
+					nilai = document.kalkulator.layar.value + nilai;
+				}
+					else if (nilai == '.' && document.kalkulator.layar.value.indexOf(".") != -1)
+					return;
 			}
-				else if (nilai == '.' && document.kalkulator.layar.value.indexOf(".") != -1)
-				return;
 			else
 			{
 				nilai = document.kalkulator.layar.value + nilai;
@@ -19,43 +24,51 @@
                 }
 
                 document.kalkulator.layar.value=nilai;
-            	}
-           	function Operator(opt){
-			op = opt;
-			if(opt == 'x^2' || opt == '%' || opt == 'akar' || opt == '1/x' || opt == '+/-') Hitung();
-			else {
-				if(temp){
-					Hitung();
-				}
-				temp = document.kalkulator.layar.value;
-
+		{
+           		function Operator(opt)
+			{
 				op = opt;
-				newdigit=true;
+				if(opt == 'x^2' || opt == '%' || opt == 'akar' || opt == '1/x' || opt == '+/-') Hitung();
+				else
+				{
+					if(temp)
+					{
+						Hitung();
+					}
+					temp = document.kalkulator.layar.value;
+					op = opt;
+					newdigit=true;
 				}
-           	 }
-		function CE()
+           	 	}
+			
+			function CE()
 			{
-        		newdigit=true;
-       			document.kalkulator.layar.value='0';
-        		temp=0;
+        			newdigit = true;
+       				document.kalkulator.layar.value='0';
+        			temp = 0;
      			}
-     		function C()
+			
+	     		function C()
 			{
-        		newdigit=true;
-        		document.kalkulator.layar.value='0';
-			temp = 0;
+        			newdigit = true;
+        			document.kalkulator.layar.value='0';
+				temp = 0;
     			}
-		function Hapus()
+			
+			function Hapus()
 			{
-			var str = document.kalkulator.layar.value;
-			var res = str.substring(0, str.length - 1);
-			document.kalkulator.layar.value=res;
+				var str = document.kalkulator.layar.value;
+				var res = str.substring(0, str.length - 1);
+				document.kalkulator.layar.value=res;
 			}
-      		function Hitung()
+
+			function Hitung()
 			{
-        		var angka = document.kalkulator.layar.value;
-			var hasil;
-        			if(op == '*'){
+        			var angka = document.kalkulator.layar.value;
+				var hasil;
+				
+        			if(op == '*')
+				{
           				temp = temp * angka;
         			}
 				else if(op == '/')
@@ -89,6 +102,8 @@
 					temp = 0;
 					return;
 				}
-          				document.kalkulator.layar.value = temp;
-					temp = 0;
-			        }
+				
+          			document.kalkulator.layar.value = temp;
+				temp = 0;
+			}
+		}
